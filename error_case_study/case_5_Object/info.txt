@@ -1,0 +1,7 @@
+Question: To which family does these birds belong?
+A. Haematopodidae
+B. Scolopacidae
+C. Laridae
+D. Charadriidae
+Ground Truth: A
+Model Output: D. Charadriidae

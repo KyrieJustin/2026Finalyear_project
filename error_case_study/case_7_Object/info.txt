@@ -1,0 +1,7 @@
+Question: What is the species of the birds in the picture?
+A. Ross's goose
+B. Snow goose
+C. Ross's goose and Snow goose
+D. Ross's goose and Anser anser
+Ground Truth: C
+Model Output: B. Snow goose

@@ -1,0 +1,35 @@
+=== CASE #2 DIAGNOSIS ===
+Question: What is the species of the birds in the picture?
+A. Ross's goose
+B. Snow goose
+C. Ross's goose and Snow goose
+D. Ross's goose and Anser anser
+Ground Truth: C
+
+--- Step 1: Visual Logic ---
+Crop Status: Check 'agent_crop.jpg'. If it's the same as original, DINO failed.
+
+--- Step 2: Search Logic ---
+AI Initial Guess: Goose
+
+--- Step 3: Knowledge Logic ---
+Retrieved Context:
+Wikipedia Info: 
+Google Search Info: The best practice to tell the difference between a light goose and a dark goose is the head. Light geese have an entirely white head, dark geese do not. Identification on dark days relies more on characteristics other than color, such as shape, call and behavior. Figure 118: Taverner's goose (1) with cackling ... Canada Geese have a black head with white cheeks and chinstrap, black neck, tan breast, and brown back. Color pattern of the Canada Goose © Alix d'Entremont / ...
+
+--- Step 4: Reasoning Logic (Model's Heart) ---
+Model Reasoning Process:
+Let's analyze the visual features in the image and compare them with the external knowledge provided:
+
+1. **Head Color**: Both birds in the image have an entirely white head, which matches the description of light geese. Dark geese do not have an entirely white head.
+
+2. **Body Color**: The body of both birds appears predominantly white, which aligns with the description of light geese. Dark geese typically have a darker coloration on their bodies.
+
+3. **Beak**: The beaks of both birds are pinkish-red, which is consistent with the description of light geese. Dark geese usually have a darker beak color.
+
+4. **Shape and Call**: While these cannot be determined from the image alone, the visual features strongly suggest that these are light geese.
+
+Given this analysis, we can conclude that the birds in the picture are most likely Snow geese, as they match the description of light geese with an entirely white head and body.
+
+The correct answer is:
+B. Snow goose

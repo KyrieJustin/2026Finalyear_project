@@ -1,0 +1,7 @@
+Question: How many total engines does this aircraft have?
+A. 2
+B. 4
+C. 3
+D. 5
+Ground Truth: C
+Model Output: B. 4

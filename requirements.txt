@@ -1,0 +1,28 @@
+# --- Core Deep Learning ---
+torch
+torchvision
+torchaudio
+
+# --- Large Multimodal Models (VLM) ---
+transformers>=4.49.0
+accelerate>=0.26.0
+qwen-vl-utils
+timm
+sentencepiece
+
+# --- Tools & API Integration ---
+requests
+wikipedia
+google-search-results
+
+# --- UI & Utilities ---
+gradio
+tqdm
+numpy
+pillow
+json_repair
+
+# --- Data Analysis & Visualization ---
+matplotlib
+seaborn
+pandas

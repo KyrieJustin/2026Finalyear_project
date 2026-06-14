@@ -1,0 +1,6 @@
+Question: Are these two birds the same species?
+A. Yes
+B. No
+C. Not sure
+Ground Truth: B
+Model Output: A. Yes

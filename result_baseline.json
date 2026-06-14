@@ -1,0 +1,962 @@
+[
+    {
+        "image_path": "/home/zhouzilu/benchmark/image/051_Black-bellied_whistling_duck.jpg",
+        "Question": "What is the genus of this bird?\nA. Anas\nB. Dendrocygna\nC. Cygnus\nD. Fulica",
+        "Answer": "B",
+        "Level": "Easy",
+        "Category": "Object",
+        "model_output": "B. Dendrocygna\n\nThe bird in the picture appears to be a whistling duck, which belongs to the genus Dendrocygna. Whistling ducks are known for their distinctive call and are often found perched on tree stumps or branches, as seen in the image. The other genera listed do not typically include birds that would be perched in such a manner."
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image/051_Black-bellied_whistling_duck.jpg",
+        "Question": "How many birds are visible in the image?\nA. One\nB. Two\nC. Three\nD. Four",
+        "Answer": "A",
+        "Level": "Easy",
+        "Category": "Count",
+        "model_output": "A. One\n\nThe image shows one bird perched on a tree stump with a rainbow in the background. There are no other birds visible in the image."
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image/051_Black-bellied_whistling_duck.jpg",
+        "Question": "What is the species of the bird in the picture?\nA. Autumnalis\nB. Bicolor\nC. Viduata\nD. Discolor",
+        "Answer": "A",
+        "Level": "Easy",
+        "Category": "Object",
+        "model_output": "B\n\nThe bird in the picture appears to be a Black-crowned Night-Heron, which is known for its distinctive black plumage and white underparts. The species name \"Bicolor\" refers to the black and white coloration of this bird."
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image/051_Black-bellied_whistling_duck.jpg",
+        "Question": "What is the primary color of the bird's belly?\nA. Black\nB. White\nC. Gray\nD. Brown",
+        "Answer": "A",
+        "Level": "Easy",
+        "Category": "Attribute",
+        "model_output": "D\n\nThe bird in the image appears to have a brown belly, which is visible against the backdrop of the rainbow and the sky."
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image/052_Black-bellied_plover.jpg",
+        "Question": "Which family do these two birds belong to?\nA. Charadriidae\nB. Scolopacidae\nC. Laridae\nD. Anatidae",
+        "Answer": "A",
+        "Level": "Easy",
+        "Category": "Object",
+        "model_output": "B. Scolopacidae\n\nThe birds in the picture appear to be sandpipers, which belong to the family Scolopacidae. This family includes various shorebirds such as sandpipers, curlews, and godwits, all of which are characterized by their long legs and bills adapted for wading in shallow water. The birds in the image have these features, making Scolopacidae the correct answer."
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image/052_Black-bellied_plover.jpg",
+        "Question": "Are these two birds the same species?\nA. Yes\nB. No\nC. Not sure",
+        "Answer": "B",
+        "Level": "Medium",
+        "Category": "Object",
+        "model_output": "A. Yes\n\nThe two birds in the image appear to be the same species, as they have similar body shapes, coloration patterns, and are standing on a beach near the water, which is consistent with their natural habitat. The speckled pattern on their bodies and their size suggest they could be a type of sandpiper, such as a dunlin or a sanderling, but without more specific details or a closer view, it's difficult to determine the exact species. However, based on the visual information provided, it is reasonable to conclude that they are the same species."
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image/052_Black-bellied_plover.jpg",
+        "Question": "How many birds are visible in the image?\nA. One\nB. Two\nC. Three\nD. Four",
+        "Answer": "B",
+        "Level": "Easy",
+        "Category": "Count",
+        "model_output": "B. Two\n\nThe image shows two birds standing on a sandy beach near the water's edge."
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image/052_Black-bellied_plover.jpg",
+        "Question": "How many birds show black - and - white plumage patterns in the image?\nA. One\nB. Two\nC. Three\nD. Four",
+        "Answer": "B",
+        "Level": "Medium",
+        "Category": "Count",
+        "model_output": "B. Two\n\nThe image shows two birds with black-and-white plumage patterns standing on the beach."
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image/053_Semipalmated_plover.jpg",
+        "Question": "To which family do these birds belong?\nA. Charadriidae\nB. Scolopacidae\nC. Laridae\nD. Anatidae",
+        "Answer": "A",
+        "Level": "Easy",
+        "Category": "Object",
+        "model_output": "A. Charadriidae\n\nThe birds in the picture are Ringed Plovers, which belong to the family Charadriidae. This family includes plovers, dotterels, and sandpipers, all of which are shorebirds known for their distinctive appearance and behavior on coastal and wetland habitats. The Ringed Plover is easily recognizable by its black and white plumage with a distinctive ring around its neck, which gives it its name."
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image/053_Semipalmated_plover.jpg",
+        "Question": "How many birds have orange legs in the image?\nA. One\nB. Two\nC. Three\nD. Four",
+        "Answer": "B",
+        "Level": "Hard",
+        "Category": "Count",
+        "model_output": "B. Two\n\nExplanation: Both birds in the image have orange legs."
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image/053_Semipalmated_plover.jpg",
+        "Question": "Are the birds in this image members of the Charadrius genus?\nA. Yes\nB. No\nC. Not sure",
+        "Answer": "A",
+        "Level": "Easy",
+        "Category": "Object",
+        "model_output": "A. Yes\n\nThe birds in the image appear to be semipalmated plovers, which belong to the Charadrius genus. The semipalmated plover is characterized by its black and white plumage with a distinctive black band across the chest and a white belly. The behavior observed, such as one bird appearing to feed the other, is also consistent with the feeding patterns of plovers."
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image/053_Semipalmated_plover.jpg",
+        "Question": "What is the scientific name of the birds in the picture?\nA. Charadrius vociferus\nB. Charadrius semipalmatus\nC. Charadrius melodus\nD. Charadrius hiaticula",
+        "Answer": "B",
+        "Level": "Easy",
+        "Category": "Object",
+        "model_output": "D\n\nThe birds in the picture appear to be Semipalmated Plovers, which have a distinctive black and white pattern on their heads and necks, and they are often found on sandy beaches. The scientific name for the Semipalmated Plover is Charadrius hiaticula."
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image/054_Greater_white-fronted_goose.jpg",
+        "Question": "To which family does the bird in the middle of the image belong?\nA. Anatidae\nB. Accipitridae\nC. Scolopacidae\nD. Laridae",
+        "Answer": "A",
+        "Level": "Easy",
+        "Category": "Object",
+        "model_output": "A. Anatidae\n\nThe bird in the middle of the image is a goose, which belongs to the family Anatidae. This family includes ducks, geese, and swans, all of which have webbed feet and are typically found in water or near water bodies. The other options do not apply: Accipitridae includes hawks and eagles, Scolopacidae includes sandpipers and plovers, and Laridae includes gulls and terns."
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image/054_Greater_white-fronted_goose.jpg",
+        "Question": "How many birds with brown-feathered head are there in the image?\nA. One\nB. Two\nC. Three\nD. Four",
+        "Answer": "A",
+        "Level": "Medium",
+        "Category": "Count",
+        "model_output": "A. One\n\nThe bird with a brown-feathered head is clearly visible in the foreground of the image. There are no other birds with a similar appearance in the image."
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image/054_Greater_white-fronted_goose.jpg",
+        "Question": "Are these two birds from the same class?\nA. Yes\nB. No\nC. Not sure",
+        "Answer": "A",
+        "Level": "Medium",
+        "Category": "Object",
+        "model_output": "B. No\n\nThe image shows two different types of birds: one appears to be a black-footed albatross, which is a seabird, and the other appears to be a white-fronted goose, which is a waterfowl. These belong to different classes in the animal kingdom."
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image/054_Greater_white-fronted_goose.jpg",
+        "Question": "What is the species of the birds in the picture?\nA. Greater white-fronted goose\nB. Laysan albatross\nC. Laysan albatross and Greater white-fronted goose\nD. Black-footed albatross and Greater white-fronted goose",
+        "Answer": "B",
+        "Level": "Medium",
+        "Category": "Object",
+        "model_output": "C. Laysan albatross and Greater white-fronted goose\n\nThe image shows two types of birds: one with a black head and white body, which is characteristic of the Laysan albatross, and another with a brownish-gray body and white face, which is characteristic of the Greater white-fronted goose."
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image/055_American_white_pelican.jpg",
+        "Question": "What is the species of the birds in the picture?\nA. American white pelican\nB. Brown pelican\nC. American white pelican and Osprey\nD. American white pelican and Laysan albatross",
+        "Answer": "C",
+        "Level": "Medium",
+        "Category": "Object",
+        "model_output": "C\n\nThe bird on the left is an American white pelican, identifiable by its large size, long beak with a throat pouch, and the splash it creates as it lands. The bird on the right is an Osprey, recognizable by its dark brown back, lighter underside, and sharp talons used for catching fish."
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image/055_American_white_pelican.jpg",
+        "Question": "How many pelicans are visible in the image?\nA. One\nB. Two\nC. Three\nD. Four",
+        "Answer": "B",
+        "Level": "Easy",
+        "Category": "Count",
+        "model_output": "B. Two\n\nThe image shows two pelicans: one in the foreground with its wings spread wide and another in the background."
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image/055_American_white_pelican.jpg",
+        "Question": "Are the birds in the picture from the same order?\nA. Yes\nB. No\nC. Not sure",
+        "Answer": "B",
+        "Level": "Medium",
+        "Category": "Object",
+        "model_output": "B. No\n\nThe image shows a pelican and an osprey. Pelicans belong to the Pelecaniformes order, while ospreys belong to the Accipitriformes order. Therefore, they are not from the same order."
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image/055_American_white_pelican.jpg",
+        "Question": "What is the primary color of the white bird's bill?\nA. Brown\nB. Grey\nC. White\nD. Yellow",
+        "Answer": "D",
+        "Level": "Easy",
+        "Category": "Attribute",
+        "model_output": "D. Yellow\n\nThe primary color of the white bird's bill in the image is yellow."
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image/056_Killdeer.jpg",
+        "Question": "What is the genus of the birds in the image?\nA. Charadrius\nB. Scolopax\nC. Tringa\nD. Calidris",
+        "Answer": "A",
+        "Level": "Easy",
+        "Category": "Object",
+        "model_output": "A. Charadrius\n\nThe birds in the image are Killdeer, which belong to the genus Charadrius. The Killdeer is characterized by its distinctive black and white pattern on the head and neck, and its behavior of feigning injury to distract predators from its nest."
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image/056_Killdeer.jpg",
+        "Question": "Is the bird in the image a member of the Charadriidae family?\nA. Yes\nB. No\nC. Not sure",
+        "Answer": "A",
+        "Level": "Easy",
+        "Category": "Object",
+        "model_output": "A. Yes\n\nThe birds in the image appear to be Killdeer, which belong to the Charadriidae family. The Killdeer is characterized by its distinctive black and white pattern on the head and neck, and its behavior of feigning injury to distract predators from its nest. These features are consistent with the birds shown in the image."
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image/056_Killdeer.jpg",
+        "Question": "What color are the upperparts of the killdeer?\nA. Brown with rufous fringes\nB. Gray with black spots\nC. White with brown stripes\nD. Black with white patches",
+        "Answer": "A",
+        "Level": "Easy",
+        "Category": "Attribute",
+        "model_output": "A\n\nThe upperparts of the killdeer in the image have a brown coloration with rufous fringes, which is characteristic of their plumage."
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image/056_Killdeer.jpg",
+        "Question": "Are the birds displaying any fighting behavior?\nA. Yes\nB. No\nC. Not sure",
+        "Answer": "B",
+        "Level": "Medium",
+        "Category": "Action",
+        "model_output": "B. No\n\nThe birds appear to be standing close together, which could indicate a social interaction such as courtship or bonding rather than fighting. There is no visible aggression or physical contact that would suggest fighting behavior."
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image/057_Red-headed_woodpecker.jpeg",
+        "Question": "What is the species of the bird in the picture?\nA. Red-headed woodpecker\nB. Red-bellied woodpecker\nC. Acorn woodpecker\nD. Downy woodpecker",
+        "Answer": "A",
+        "Level": "Easy",
+        "Category": "Object",
+        "model_output": "A. Red-headed woodpecker\n\nThe bird in the picture has a distinctive red head and neck, which is characteristic of the Red-headed woodpecker. The white wing patch and black and white tail are also consistent with this species."
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image/057_Red-headed_woodpecker.jpeg",
+        "Question": "To which genus does this bird belong?\nA. Melanerpes\nB. Picus\nC. Dryocopus\nD. Colaptes",
+        "Answer": "A",
+        "Level": "Easy",
+        "Category": "Object",
+        "model_output": "A. Melanerpes\n\nThe bird in the picture is a Red-headed Woodpecker, which belongs to the genus Melanerpes. The distinctive red head and white wing patches are characteristic features of this species."
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image/057_Red-headed_woodpecker.jpeg",
+        "Question": "What is the primary color of the bird's head in the image?\nA. Red\nB. Black\nC. White\nD. Grey",
+        "Answer": "A",
+        "Level": "Easy",
+        "Category": "Attribute",
+        "model_output": "A. The primary color of the bird's head in the image is red."
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image/057_Red-headed_woodpecker.jpeg",
+        "Question": "What action is the bird performing in the image?\nA. Hunting\nB. Perching\nC. Feeding\nD. Nesting",
+        "Answer": "A",
+        "Level": "Medium",
+        "Category": "Action",
+        "model_output": "A. Hunting\n\nThe bird is in mid-flight with its wings spread wide, which is typical behavior for birds when they are actively hunting. The presence of an insect near the bird's beak suggests that it is likely in the process of catching prey."
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image/058_American_oystercatcher.jpg",
+        "Question": "To which family does these birds belong?\nA. Haematopodidae\nB. Scolopacidae\nC. Laridae\nD. Charadriidae",
+        "Answer": "A",
+        "Level": "Easy",
+        "Category": "Object",
+        "model_output": "D\n\nThe birds in the picture are American Oystercatchers, which belong to the family Charadriidae. This family includes wading birds such as plovers, sandpipers, and oystercatchers, characterized by their long legs and beaks adapted for probing in mudflats and shallow water."
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image/058_American_oystercatcher.jpg",
+        "Question": "What is the species of the birds in the picture?\nA. Haematopus palliatus\nB. Haematopus ostralegus\nC. Haematopus leucopodus\nD. Haematopus bachmani",
+        "Answer": "A",
+        "Level": "Easy",
+        "Category": "Object",
+        "model_output": "B. Haematopus ostralegus\n\nThe birds in the picture are American Oystercatchers, which belong to the species Haematopus ostralegus. This can be identified by their distinctive black and white plumage, long red bills, and yellow eyes with black pupils. The American Oystercatcher is known for its bold appearance and is often found on beaches and rocky shores."
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image/058_American_oystercatcher.jpg",
+        "Question": "Are these birds the same species?\nA. Yes\nB. No\nC. Not sure",
+        "Answer": "A",
+        "Level": "Medium",
+        "Category": "Object",
+        "model_output": "A. Yes\n\nThe birds in the picture appear to be American Oystercatchers, which are characterized by their black heads, white bodies, brown wings, and bright red bills. The presence of a chick with similar features further supports that they are the same species."
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image/058_American_oystercatcher.jpg",
+        "Question": "What color is the beak of these birds?\nA. Red\nB. Yellow\nC. Blue\nD. Green",
+        "Answer": "A",
+        "Level": "Easy",
+        "Category": "Attribute",
+        "model_output": "A. Red\n\nThe beaks of the birds in the picture are red."
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image/059_Ross's_goose.jpg",
+        "Question": "To which family does these two birds belong?\nA. Anatidae\nB. Phasianidae\nC. Scolopacidae\nD. Ardeidae",
+        "Answer": "A",
+        "Level": "Easy",
+        "Category": "Object",
+        "model_output": "A. Anatidae\n\nThe birds in the picture are snow geese, which belong to the family Anatidae. This family includes ducks, geese, and swans, all of which are characterized by their webbed feet and long necks. The snow goose's white plumage, pink bill, and black wingtips are typical features of this family."
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image/059_Ross's_goose.jpg",
+        "Question": "Are these two birds from the same genus?\nA. Yes\nB. No\nC. Not sure",
+        "Answer": "A",
+        "Level": "Medium",
+        "Category": "Object",
+        "model_output": "A. Yes\n\nThe birds in the picture appear to be Snow Geese (Chen caerulescens), which belong to the genus Chen. Both have white plumage, long necks, and pink bills with black tips, which are characteristic features of this genus."
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image/059_Ross's_goose.jpg",
+        "Question": "What is the species of the birds in the picture?\nA. Ross's goose\nB. Snow goose\nC. Ross's goose and Snow goose\nD. Ross's goose and Anser anser",
+        "Answer": "C",
+        "Level": "Medium",
+        "Category": "Object",
+        "model_output": "B. Snow goose\n\nThe birds in the picture have the characteristic white plumage, pink bills, and black wingtips that are typical of snow geese. The presence of both adults and possibly a juvenile suggests they could be a pair with their offspring, which is common for snow geese."
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image/059_Ross's_goose.jpg",
+        "Question": "What is the primary color of the birds' plumage?\nA. Brown\nB. Gray\nC. White\nD. Blue",
+        "Answer": "C",
+        "Level": "Easy",
+        "Category": "Attribute",
+        "model_output": "C. White\n\nThe primary color of the birds' plumage in the image is white."
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image/060_Black_oystercatcher.jpg",
+        "Question": "What is the species of the bird with the red bill in the image?\nA. Black oystercatcher\nB. American oystercatcher\nC. Eurasian oystercatcher\nD. Pied oystercatcher",
+        "Answer": "A",
+        "Level": "Easy",
+        "Category": "Object",
+        "model_output": "A. Black oystercatcher\n\nThe bird with the red bill in the image is a black oystercatcher. This can be identified by its black plumage and distinctive red bill, which are characteristic features of this species. The other options listed do not match the appearance of the bird in the image."
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image/060_Black_oystercatcher.jpg",
+        "Question": "Are these birds from the same genus??\nA. Yes\nB. No\nC. Not sure",
+        "Answer": "B",
+        "Level": "Medium",
+        "Category": "Object",
+        "model_output": "B. No\n\nExplanation: The birds in the image appear to be different species. The bird on the left has a black body with a red beak, which is characteristic of the American Oystercatcher (Haematopus palliatus). The other two birds have white bodies with gray wings and yellow beaks, which are typical features of the Western Gull (Larus occidentalis). Therefore, they are not from the same genus."
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image/060_Black_oystercatcher.jpg",
+        "Question": "What color is the bill of the black birds?\nA. Yellow\nB. Red\nC. Blue\nD. Green",
+        "Answer": "B",
+        "Level": "Easy",
+        "Category": "Attribute",
+        "model_output": "B. Red\n\nThe black birds in the image have red bills, which is characteristic of certain species of birds that live near the shore, such as oystercatchers."
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image/060_Black_oystercatcher.jpg",
+        "Question": "Are the birds in the image standing on a rocky shoreline?\nA. Yes\nB. No\nC. Not sure",
+        "Answer": "A",
+        "Level": "Medium",
+        "Category": "Action",
+        "model_output": "A. Yes\n\nThe birds in the image are standing on a rocky shoreline as evidenced by the presence of rocks and pebbles beneath them."
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image_car/151_2025_Ford_F-250.jpg",
+        "Question": "What is the brand of this vehicle?\nA. Ram\nB. Chevrolet\nC. Ford\nD. Toyota",
+        "Answer": "C",
+        "Level": "Easy",
+        "Category": "Object",
+        "model_output": "C\n\nThe vehicle in the image is a Ford truck, identifiable by the Ford logo on the front grille."
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image_car/151_2025_Ford_F-250.jpg",
+        "Question": "What is the body style of this vehicle?\nA. SUV\nB. Pickup Truck\nC. Crossover\nD. Van",
+        "Answer": "B",
+        "Level": "Easy",
+        "Category": "Object",
+        "model_output": "B. Pickup Truck\n\nThe vehicle in the image is a pickup truck, identifiable by its long bed at the rear and the overall design typical of pickup trucks, which includes a cab and a cargo area behind it."
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image_car/151_2025_Ford_F-250.jpg",
+        "Question": "What primary action is the vehicle performing?\nA. Driving through mud\nB. Being washed at a car wash\nC. Parked on a clean, paved road\nD. Driving on a professional racetrack",
+        "Answer": "A",
+        "Level": "Easy",
+        "Category": "Action",
+        "model_output": "A\n\nThe vehicle is driving through mud, as evidenced by the muddy splashes around it and the overall appearance of the truck covered in mud."
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image_car/151_2025_Ford_F-250.jpg",
+        "Question": "What is the most notable condition of the vehicle's exterior?\nA. It has visible rust spots.\nB. It is clean and polished.\nC. It is covered in snow and ice.\nD. It is covered in mud.",
+        "Answer": "D",
+        "Level": "Medium",
+        "Category": "Attribute",
+        "model_output": "D\n\nThe truck is covered in mud, as evidenced by the muddy splashes around it and the overall appearance of the vehicle."
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image_car/152_Toyota_camry.png",
+        "Question": "What is the brand of this vehicle?\nA. Honda\nB. Nissan\nC. Toyota\nD. Hyundai",
+        "Answer": "C",
+        "Level": "Easy",
+        "Category": "Object",
+        "model_output": "C. Toyota\n\nThe car in the picture has a Toyota emblem on the front grille, which clearly identifies it as a Toyota vehicle."
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image_car/152_Toyota_camry.png",
+        "Question": "What is its model name?\nA. Corolla\nB. Camry\nC. Accord\nD. Altima",
+        "Answer": "B",
+        "Level": "Medium",
+        "Category": "Object",
+        "model_output": "B. Camry\n\nThe car in the picture is a Toyota Camry, identifiable by the distinctive front grille design and overall shape of the vehicle."
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image_car/152_Toyota_camry.png",
+        "Question": "What is the body style of this vehicle?\nA. SUV\nB. Coupe\nC. Hatchback\nD. Sedan",
+        "Answer": "D",
+        "Level": "Easy",
+        "Category": "Object",
+        "model_output": "D\n\nThe vehicle in the image is a sedan, characterized by its four-door design and lack of a distinct hatchback or SUV features such as a raised roofline or elevated ground clearance."
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image_car/152_Toyota_camry.png",
+        "Question": "What is the primary color of this car?\nA. Red\nB. Silver\nC. Black\nD. White",
+        "Answer": "A",
+        "Level": "Easy",
+        "Category": "Attribute",
+        "model_output": "A. Red\n\nThe primary color of the car in the picture is red. The car's body is predominantly red, with no other significant colors visible on its exterior."
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image_car/153_Volkswagen_beetle.jpg",
+        "Question": "What is the brand of this car?\nA. Volkswagen\nB. Fiat\nC. Mini\nD. Porsche",
+        "Answer": "A",
+        "Level": "Easy",
+        "Category": "Object",
+        "model_output": "A. Volkswagen\n\nThe car in the picture is a Volkswagen Beetle, identifiable by its distinctive rounded shape and the Volkswagen logo on the rear."
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image_car/153_Volkswagen_beetle.jpg",
+        "Question": "What is the body style of this vehicle?\nA. SUV\nB. Coupe\nC. Sedan\nD. Convertible",
+        "Answer": "B",
+        "Level": "Easy",
+        "Category": "Object",
+        "model_output": "B. Coupe\n\nThe vehicle in the image has a two-door design with a sleek, compact profile, which is characteristic of a coupe. The absence of a rear pillar and the overall shape suggest it is not an SUV, sedan, or convertible."
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image_car/153_Volkswagen_beetle.jpg",
+        "Question": "What is the primary color of this car?\nA. Blue\nB. Black\nC. Green\nD. Silver",
+        "Answer": "C",
+        "Level": "Easy",
+        "Category": "Attribute",
+        "model_output": "C. Green\n\nThe primary color of the car in the image is green."
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image_car/153_Volkswagen_beetle.jpg",
+        "Question": "How many side doors does this car have?\nA. One\nB. Two\nC. Three\nD. Four",
+        "Answer": "B",
+        "Level": "Easy",
+        "Category": "Count",
+        "model_output": "B. Two\n\nThe car in the image is a Volkswagen Beetle, which typically has two side doors."
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image_car/154_Citroen_DS.jpg",
+        "Question": "What is the brand of this classic car?\nA. Peugeot\nB. Renault\nC. Citroën\nD. Fiat",
+        "Answer": "C",
+        "Level": "Easy",
+        "Category": "Object",
+        "model_output": "C\n\nThe car in the picture is a Citroën DS, identifiable by its distinctive front grille design, which is a hallmark of the Citroën brand."
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image_car/154_Citroen_DS.jpg",
+        "Question": "How many classic cars are parked on the grass?\nA. One\nB. Two\nC. Three\nD. Four",
+        "Answer": "A",
+        "Level": "Easy",
+        "Category": "Count",
+        "model_output": "A. One\n\nThe image shows one classic car parked on the grass. There are no other classic cars visible in the background or foreground of the image."
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image_car/154_Citroen_DS.jpg",
+        "Question": "What is the body style of this vehicle?\nA. SUV\nB. Sports Car\nC. Sedan\nD. Pickup Truck",
+        "Answer": "C",
+        "Level": "Easy",
+        "Category": "Object",
+        "model_output": "C\n\nThe vehicle in the image is a Citroën DS, which is a classic sedan known for its distinctive design and smooth lines. It does not fit the criteria for an SUV, sports car, or pickup truck."
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image_car/154_Citroen_DS.jpg",
+        "Question": "What is the primary color of this car's body?\nA. Silver\nB. Blue\nC. White or off-white\nD. Yellow",
+        "Answer": "C",
+        "Level": "Easy",
+        "Category": "Attribute",
+        "model_output": "C. White or off-white\n\nThe primary color of the car's body is white or off-white, as indicated by the main body of the vehicle. The roof appears to be a different color, possibly maroon or dark red."
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image_car/155_Mini_cooper.jpg",
+        "Question": "What is the brand of the left car in the foreground?\nA. Fiat\nB. Mini\nC. Volkswagen\nD. Smart",
+        "Answer": "B",
+        "Level": "Easy",
+        "Category": "Object",
+        "model_output": "B. Mini\n\nThe car on the left has the distinctive front grille and headlight design characteristic of MINI vehicles. The logo on the front grille also confirms this."
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image_car/155_Mini_cooper.jpg",
+        "Question": "How many cars are shown in the image?\nA. One\nB. Two\nC. Three\nD. Four",
+        "Answer": "B",
+        "Level": "Easy",
+        "Category": "Count",
+        "model_output": "B. Two\n\nThe image shows two cars parked side by side on a road."
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image_car/155_Mini_cooper.jpg",
+        "Question": "What is the body style of both cars in the image?\nA. SUV\nB. Sedan\nC. Hatchback\nD. Convertible",
+        "Answer": "C",
+        "Level": "Easy",
+        "Category": "Object",
+        "model_output": "C\n\nBoth cars in the image have a hatchback body style, which is characterized by a rear door that opens upwards to provide access to the cargo area. The Mini Cooper on the left and the Fiat 500 on the right both fit this description."
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image_car/155_Mini_cooper.jpg",
+        "Question": "What decorative element is on the hood of the left car?\nA. A single, wide racing stripe\nB. A checkered flag pattern\nC. Two parallel white stripes\nD. A flame decal",
+        "Answer": "C",
+        "Level": "Easy",
+        "Category": "Attribute",
+        "model_output": "C\n\nThe left car has two parallel white stripes running along the hood, which is a distinctive feature often associated with certain models of MINI cars."
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image_car/156_Lamborghini_countach.jpg",
+        "Question": "What is the brand of the left car?\nA. Ferrari\nB. Porsche\nC. Lamborghini\nD. McLaren",
+        "Answer": "C",
+        "Level": "Easy",
+        "Category": "Object",
+        "model_output": "C\n\nThe left car has the distinctive front grille and headlight design characteristic of Lamborghini, particularly the Countach model."
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image_car/156_Lamborghini_countach.jpg",
+        "Question": "How many sports cars are racing on the track?\nA. One\nB. Two\nC. Three\nD. Four",
+        "Answer": "B",
+        "Level": "Easy",
+        "Category": "Count",
+        "model_output": "B. Two\n\nThe image shows two sports cars, one white and one red, racing on the track."
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image_car/156_Lamborghini_countach.jpg",
+        "Question": "How many red cars are there?\nA. One\nB. Two\nC. Three\nD. Four",
+        "Answer": "A",
+        "Level": "Easy",
+        "Category": "Count",
+        "model_output": "A. One\n\nThere is one red car in the image. The other car is white."
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image_car/156_Lamborghini_countach.jpg",
+        "Question": "What type of headlights do both cars feature?\nA. Standard fixed headlights\nB. Pop-up headlights\nC. LED matrix headlights\nD. Hidden headlights behind the grille",
+        "Answer": "B",
+        "Level": "Easy",
+        "Category": "Attribute",
+        "model_output": "B. Pop-up headlights\n\nThe image shows two sports cars with headlights that retract into the body when not in use, which is characteristic of pop-up headlights. This design was common in high-performance sports cars of the 1980s and early 1990s to reduce drag at high speeds."
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image_car/157_Mercedes-benz_300_SL.png",
+        "Question": "What is the brand of the car in the foreground with its doors open?\nA. Porsche\nB. BMW\nC. Mercedes-Benz\nD. Audi",
+        "Answer": "C",
+        "Level": "Easy",
+        "Category": "Object",
+        "model_output": "C\n\nThe car in the foreground with its doors open is a Mercedes-Benz. This can be identified by the distinctive Mercedes-Benz grille and emblem on the front of the vehicle."
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image_car/157_Mercedes-benz_300_SL.png",
+        "Question": "What is the body style of all of these vehicles?\nA. SUV\nB. Sedan\nC. Coupe / Grand Tourer\nD. Convertible",
+        "Answer": "C",
+        "Level": "Easy",
+        "Category": "Object",
+        "model_output": "C\n\nThe vehicles in the image are classic sports cars with sleek, aerodynamic designs typical of coupes and grand tourers. They do not have the boxy shape of an SUV, the enclosed cabin of a sedan, or the open-top design of a convertible. Therefore, the correct answer is C."
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image_car/157_Mercedes-benz_300_SL.png",
+        "Question": "What unique type of doors does the car in the foreground have?\nA. Scissor doors\nB. Suicide doors\nC. Butterfly doors\nD. Gull-wing doors",
+        "Answer": "D",
+        "Level": "Easy",
+        "Category": "Attribute",
+        "model_output": "D\n\nThe car in the foreground has gull-wing doors, which are characterized by their upward-swinging design that resembles the wings of a seagull. This is a distinctive feature of certain high-performance sports cars from the 1950s and 1960s."
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image_car/157_Mercedes-benz_300_SL.png",
+        "Question": "In what type of location are the cars positioned?\nA. A public city street\nB. A professional racetrack\nC. A private driveway\nD. An off-road trail",
+        "Answer": "B",
+        "Level": "Easy",
+        "Category": "Action",
+        "model_output": "B. A professional racetrack\n\nThe presence of guardrails, the smooth asphalt surface, and the overall layout of the track suggest that this is a professional racetrack designed for high-speed driving and racing events. The cars are positioned in a way that is typical for a racetrack, with clear lane markings and a focus on performance rather than everyday driving conditions."
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image_car/158_DeLorean_DMC-12.png",
+        "Question": "What is the brand of the smaller car?\nA. Porsche\nB. DMC (DeLorean Motor Company)\nC. Ferrari\nD. Lotus",
+        "Answer": "B",
+        "Level": "Easy",
+        "Category": "Object",
+        "model_output": "B. DMC (DeLorean Motor Company)\n\nThe smaller car in the image has the \"DMC\" logo on its front grille, which stands for DeLorean Motor Company, the manufacturer of the iconic DeLorean DMC-12 sports car."
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image_car/158_DeLorean_DMC-12.png",
+        "Question": "What is the primary exterior material and finish of both vehicles?\nA. Painted carbon fiber\nB. Polished aluminum\nC. Unpainted stainless steel\nD. Matte black plastic",
+        "Answer": "C",
+        "Level": "Easy",
+        "Category": "Attribute",
+        "model_output": "C\n\nThe primary exterior material and finish of both vehicles appears to be unpainted stainless steel. This can be inferred from the metallic sheen and the way light reflects off the surface, which is characteristic of stainless steel. The lack of paint and the visible scratches and wear also suggest that it is not painted carbon fiber or polished aluminum. The matte black plastic option is less likely due to the reflective nature of the material."
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image_car/158_DeLorean_DMC-12.png",
+        "Question": "What is the model name of the large truck?\nA. F-150 Lightning\nB. Rivian R1T\nC. Hummer EV\nD. Cybertruck",
+        "Answer": "D",
+        "Level": "Medium",
+        "Category": "Object",
+        "model_output": "D\n\nThe large truck in the image has a distinctive angular design with a unique front grille and overall shape that is characteristic of Tesla's Cybertruck. The Cybertruck is known for its futuristic, angular design and lack of traditional body panels, which matches the appearance of the vehicle in the picture."
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image_car/158_DeLorean_DMC-12.png",
+        "Question": "What type of doors does the smaller sports car have?\nA. Scissor doors\nB. Suicide doors\nC. Gull-wing doors\nD. Standard hinged doors",
+        "Answer": "C",
+        "Level": "Easy",
+        "Category": "Action",
+        "model_output": "C. Gull-wing doors\n\nThe smaller sports car in the image has gull-wing doors, which are characterized by their upward-opening design that resembles the wings of a bird in flight. This is evident from the way the doors are positioned above the car's roof when open."
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image_car/159_BMW_i3.png",
+        "Question": "What is the brand of the car in the foreground?\nA. Audi\nB. BMW\nC. Tesla\nD. Volkswagen",
+        "Answer": "B",
+        "Level": "Easy",
+        "Category": "Object",
+        "model_output": "B. BMW\n\nThe car in the foreground has the distinctive BMW logo on its front grille, which is a clear indicator that it is a BMW vehicle."
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image_car/159_BMW_i3.png",
+        "Question": "What is the body style of the car in the foreground?\nA. Sedan\nB. Coupe\nC. SUV\nD. High-roof hatchback",
+        "Answer": "D",
+        "Level": "Easy",
+        "Category": "Object",
+        "model_output": "D\n\nThe car in the foreground appears to be a high-roof hatchback due to its compact size, sloping rear end, and the overall design that suggests it is meant for practicality and space efficiency, which are characteristic features of this body style."
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image_car/159_BMW_i3.png",
+        "Question": "How many electric vehicles are driving on the road?\nA. One\nB. Two\nC. Three\nD. Four",
+        "Answer": "B",
+        "Level": "Easy",
+        "Category": "Count",
+        "model_output": "B. Two\n\nThe image shows two cars that appear to be electric vehicles: one red BMW i3 and one white Mercedes-Benz B-Class Electric Drive. Both have the distinctive design features of electric vehicles, such as the lack of a traditional grille and the overall shape that is typical for electric car models."
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image_car/159_BMW_i3.png",
+        "Question": "What is the two-tone color scheme of the car in the foreground?\nA. Blue and silver\nB. Red and black\nC. Green and white\nD. Yellow and black",
+        "Answer": "B",
+        "Level": "Easy",
+        "Category": "Attribute",
+        "model_output": "B. Red and black\n\nThe car in the foreground has a red body with black accents, including the roof and lower front bumper area."
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image_car/160_Hummer_H1.jpg",
+        "Question": "What is the brand of the black vehicle in the foreground?\nA. Jeep\nB. Land Rover\nC. Hummer\nD. Ford",
+        "Answer": "C",
+        "Level": "Easy",
+        "Category": "Object",
+        "model_output": "C\n\nThe black vehicle in the foreground has the distinctive grille and design features that are characteristic of the Hummer brand, particularly the Hummer H1 model, which is known for its boxy shape and large tires."
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image_car/160_Hummer_H1.jpg",
+        "Question": "How many vehicles are parked in front of the building?\nA. One\nB. Two\nC. Three\nD. Four",
+        "Answer": "B",
+        "Level": "Easy",
+        "Category": "Count",
+        "model_output": "B. Two\n\nThe image shows two vehicles parked in front of the building."
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image_car/160_Hummer_H1.jpg",
+        "Question": "What is the body style of both vehicles?\nA. Minivan\nB. Sports Car\nC. Off-road vehicle\nD. Sedan",
+        "Answer": "C",
+        "Level": "Easy",
+        "Category": "Object",
+        "model_output": "C\n\nThe vehicles in the image are off-road vehicles, characterized by their large tires, robust build, and elevated suspension, which are typical features designed for off-road capabilities."
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image_car/160_Hummer_H1.jpg",
+        "Question": "What feature is mounted on the roof of the black vehicle?\nA. A large sunroof\nB. A roof rack for cargo\nC. A convertible soft top\nD. Solar panels",
+        "Answer": "B",
+        "Level": "Easy",
+        "Category": "Attribute",
+        "model_output": "B. A roof rack for cargo\n\nThe black vehicle in the image has a roof rack installed on its roof, which is typically used to carry cargo or equipment. This is evident from the horizontal bars spanning the length of the roof, which are designed to hold items securely."
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image_air/251_Boeing_747.jpg",
+        "Question": "What is the primary role of the lower aircraft?\nA. Passenger transport\nB. Standard cargo flights\nC. Specialized transport\nD. Military bombing",
+        "Answer": "C",
+        "Level": "Easy",
+        "Category": "Object",
+        "model_output": "C\n\nThe lower aircraft is a NASA Shuttle Carrier Aircraft (SCA), which is specifically designed to transport the Space Shuttle orbiter. This specialized transport role is distinct from standard cargo flights, passenger transport, or military bombing missions."
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image_air/251_Boeing_747.jpg",
+        "Question": "What famous vehicle is mounted on the larger aircraft?\nA. A spy plane\nB. A supersonic jet\nC. A space shuttle\nD. A large rocket",
+        "Answer": "C",
+        "Level": "Easy",
+        "Category": "Object",
+        "model_output": "C. A space shuttle\n\nThe image shows a NASA Boeing 747 Shuttle Carrier Aircraft (SCA) carrying a space shuttle on its back. The SCA was specifically designed to transport retired space shuttles from NASA's Kennedy Space Center in Florida to museums across the United States."
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image_air/251_Boeing_747.jpg",
+        "Question": "How many engines are visible on the lower aircraft?\nA. 2\nB. 4\nC. 6\nD. 8",
+        "Answer": "B",
+        "Level": "Easy",
+        "Category": "Count",
+        "model_output": "B. 4\n\nThe lower aircraft is a NASA Shuttle Carrier Aircraft (SCA), which has four engines mounted under its wings. The image clearly shows two engines on each side of the aircraft, totaling four engines."
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image_air/251_Boeing_747.jpg",
+        "Question": "What is this aircraft combination doing?\nA. Cruising at high altitude\nB. Taking off\nC. Parked on the ground\nD. Being refueled in the air",
+        "Answer": "B",
+        "Level": "Easy",
+        "Category": "Action",
+        "model_output": "B. Taking off\n\nThe image shows a NASA Shuttle Carrier Aircraft (SCA) carrying the Space Shuttle Endeavour. The SCA is designed to transport the Space Shuttle to different locations for various purposes. In this image, the SCA appears to be in the process of taking off from an airport runway, as indicated by the landing gear being down and the aircraft's position above the ground."
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image_air/252_Airbus_A380.jpg",
+        "Question": "All the aircraft in this formation belong to which major manufacturer?\nA. Boeing\nB. Airbus\nC. Embraer\nD. Lockheed Martin",
+        "Answer": "B",
+        "Level": "Easy",
+        "Category": "Object",
+        "model_output": "B. Airbus\n\nThe image shows four aircraft with \"Airbus\" written on their tails, indicating that all the aircraft in this formation belong to Airbus."
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image_air/252_Airbus_A380.jpg",
+        "Question": "How many total aircraft are visible in the formation?\nA. 2\nB. 3\nC. 4\nD. 5",
+        "Answer": "C",
+        "Level": "Easy",
+        "Category": "Count",
+        "model_output": "D\n\nThe image shows five aircraft stacked in a formation, with each plane clearly visible and distinct from the others."
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image_air/252_Airbus_A380.jpg",
+        "Question": "What is this group of aircraft doing?\nA. Racing each other\nB. Preparing to land in sequence\nC. Refueling in mid-air\nD. Flying in formation",
+        "Answer": "D",
+        "Level": "Easy",
+        "Category": "Action",
+        "model_output": "D. Flying in formation\n\nThe image shows four Airbus aircraft flying closely together in a coordinated manner, which is characteristic of flying in formation. This type of arrangement is often used for visual displays, training exercises, or ceremonial purposes rather than for racing, landing, or refueling."
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image_air/252_Airbus_A380.jpg",
+        "Question": "Which aircraft in the formation is equipped with four engines?\nA. The largest one in the front\nB. The one in the middle\nC. The smallest one in the back\nD. None of them",
+        "Answer": "A",
+        "Level": "Easy",
+        "Category": "Attribute",
+        "model_output": "A. The largest one in the front\n\nThe largest aircraft in the front of the formation is the Airbus A380, which is equipped with four engines."
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image_air/253_Boeing_777.png",
+        "Question": "This aircraft is produced by which manufacturer?\nA. Airbus\nB. Boeing\nC. Embraer\nD. Bombardier",
+        "Answer": "B",
+        "Level": "Easy",
+        "Category": "Object",
+        "model_output": "B\n\nThe aircraft in the image is a Boeing 777, identifiable by its distinctive design features such as the twin engines under the wings, the shape of the nose, and the overall fuselage structure."
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image_air/253_Boeing_777.png",
+        "Question": "Which airline operates this aircraft?\nA. Singapore Airlines\nB. Emirates\nC. Lufthansa\nD. Cathay Pacific",
+        "Answer": "D",
+        "Level": "Easy",
+        "Category": "Object",
+        "model_output": "D. Cathay Pacific\n\nThe aircraft in the image is operated by Cathay Pacific, as indicated by the \"CATHAY PACIFIC\" text on the side of the plane."
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image_air/253_Boeing_777.png",
+        "Question": "What phase of flight is the aircraft currently in?\nA. Taking off\nB. Cruising at altitude\nC. Landing\nD. Taxiing to the gate",
+        "Answer": "A",
+        "Level": "Easy",
+        "Category": "Action",
+        "model_output": "A. Taking off\n\nThe aircraft is shown with its landing gear still extended, which is typical during the takeoff phase as it has just lifted off the ground and is still in the process of climbing. The nose is slightly raised, indicating that the aircraft is gaining altitude."
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image_air/253_Boeing_777.png",
+        "Question": "How many engines does this aircraft have in total?\nA. 2\nB. 4\nC. 6\nD. 8",
+        "Answer": "A",
+        "Level": "Easy",
+        "Category": "Count",
+        "model_output": "A. 2\n\nThe aircraft in the picture is a Boeing 777, which has two engines mounted under each wing, totaling four engines. However, since the question asks for the total number of engines on the aircraft, the correct answer is A. 2, as it refers to the engines visible from the side shown in the image."
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image_air/254_Boeing_787_Dreamliner.jpg",
+        "Question": "What is the manufacturer of these airliners?\nA. Airbus\nB. Lockheed Martin\nC. Boeing\nD. Embraer",
+        "Answer": "C",
+        "Level": "Easy",
+        "Category": "Object",
+        "model_output": "C\n\nThe image shows three Boeing 787 Dreamliners in flight. The aircraft are clearly marked with the \"Boeing\" logo on their fuselage, indicating that they are manufactured by Boeing."
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image_air/254_Boeing_787_Dreamliner.jpg",
+        "Question": "What is the nickname of the aircraft?\nA. Stratocruiser\nB. Globemaster\nC. Starliner\nD. Dreamliner",
+        "Answer": "D",
+        "Level": "Easy",
+        "Category": "Object",
+        "model_output": "D\n\nThe aircraft in the image are Boeing 787 Dreamliners. The nickname \"Dreamliner\" is prominently displayed on the fuselage of each aircraft, indicating their model name."
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image_air/254_Boeing_787_Dreamliner.jpg",
+        "Question": "How many aircraft are flying together in this picture?\nA. 2\nB. 3\nC. 4\nD. 5",
+        "Answer": "B",
+        "Level": "Easy",
+        "Category": "Count",
+        "model_output": "B. 3\n\nThe image shows three Boeing 787 Dreamliners flying together in formation."
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image_air/254_Boeing_787_Dreamliner.jpg",
+        "Question": "How many engines does each of these aircraft have?\nA. 2\nB. 4\nC. 6\nD. 1",
+        "Answer": "A",
+        "Level": "Easy",
+        "Category": "Count",
+        "model_output": "A. 2\n\nEach aircraft in the image has two engines mounted under the wings."
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image_air/255_Airbus_A350.jpg",
+        "Question": "This aircraft is a product of which manufacturer?\nA. Boeing\nB. Embraer\nC. Airbus\nD. Bombardier",
+        "Answer": "C",
+        "Level": "Easy",
+        "Category": "Object",
+        "model_output": "C\n\nThe aircraft in the image is an Airbus A350, identifiable by its distinctive design features such as the twin engines mounted under the wings, the shape of the nose, and the overall fuselage structure. The livery and registration number also suggest it belongs to Edelweiss Air, a Swiss airline that operates Airbus aircraft."
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image_air/255_Airbus_A350.jpg",
+        "Question": "This type of aircraft is primarily designed for what kind of flights?\nA. Short-haul domestic routes\nB. Long-haul international routes\nC. Regional commuter flights\nD. Cargo and freight transport",
+        "Answer": "B",
+        "Level": "Easy",
+        "Category": "Object",
+        "model_output": "B\n\nThe aircraft in the image is an Airbus A350, which is primarily designed for long-haul international routes due to its large size, advanced aerodynamics, and long-range capabilities."
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image_air/255_Airbus_A350.jpg",
+        "Question": "What is the aircraft doing in this image?\nA. Taking off\nB. Landing\nC. Parked at a gate\nD. Cruising in the air",
+        "Answer": "D",
+        "Level": "Easy",
+        "Category": "Action",
+        "model_output": "A. Taking off\n\nThe aircraft's landing gear is extended, which is typically done during takeoff to ensure a safe landing if needed. Additionally, the position of the aircraft suggests it is ascending, which is characteristic of a takeoff maneuver."
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image_air/255_Airbus_A350.jpg",
+        "Question": "How many engines are on this aircraft?\nA. 2\nB. 3\nC. 4\nD. 6",
+        "Answer": "A",
+        "Level": "Easy",
+        "Category": "Count",
+        "model_output": "A. 2\n\nThe aircraft in the image is an Airbus A350, which typically has two engines mounted under the wings."
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image_air/256_McDonnell_Douglas_DC-10.jpg",
+        "Question": "Which company operates this cargo aircraft?\nA. UPS\nB. FedEx Express\nC. DHL\nD. Amazon Air",
+        "Answer": "B",
+        "Level": "Easy",
+        "Category": "Object",
+        "model_output": "B\n\nThe aircraft in the image is clearly marked with the FedEx Express logo and branding, indicating that it is operated by FedEx Express."
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image_air/256_McDonnell_Douglas_DC-10.jpg",
+        "Question": "What is the primary purpose of this aircraft?\nA. Passenger transport\nB. Scientific research\nC. Transporting cargo\nD. Military surveillance",
+        "Answer": "C",
+        "Level": "Easy",
+        "Category": "Object",
+        "model_output": "C\n\nThe aircraft in the image is a FedEx Express plane, which is primarily used for transporting cargo. The livery and the design of the aircraft are characteristic of a freighter, not a passenger plane, scientific research aircraft, or a military surveillance plane."
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image_air/256_McDonnell_Douglas_DC-10.jpg",
+        "Question": "What action is the aircraft performing?\nA. Landing on a runway\nB. Taking off\nC. Taxiing to a parking stand\nD. Cruising at high altitude",
+        "Answer": "A",
+        "Level": "Easy",
+        "Category": "Action",
+        "model_output": "A. Landing on a runway\n\nThe aircraft is on the ground with its landing gear deployed, which is typical for an airplane that has just landed. The smoke coming from the tires suggests that they have recently touched down and are slowing down."
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image_air/256_McDonnell_Douglas_DC-10.jpg",
+        "Question": "How many total engines does this aircraft have?\nA. 2\nB. 4\nC. 3\nD. 5",
+        "Answer": "C",
+        "Level": "Easy",
+        "Category": "Count",
+        "model_output": "B. 4\n\nThe aircraft in the image is a McDonnell Douglas MD-11F, which is a four-engine jet. The engines are mounted under the wings, two on each side of the fuselage."
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image_air/257_Boeing_737.jpg",
+        "Question": "Which airline operates both of the aircraft shown?\nA. British Airways\nB. Air France\nC. American Airlines\nD. Lufthansa",
+        "Answer": "D",
+        "Level": "Easy",
+        "Category": "Object",
+        "model_output": "D. Lufthansa\n\nThe aircraft in the image have the livery of Lufthansa, as indicated by the \"Lufthansa\" text on the fuselage and the distinctive logo on the tail."
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image_air/257_Boeing_737.jpg",
+        "Question": "The two aircraft are products of which manufacturers?\nA. Boeing and Airbus\nB. Embraer and Bombardier\nC. Lockheed and McDonnell Douglas\nD. Tupolev and Ilyushin",
+        "Answer": "A",
+        "Level": "Easy",
+        "Category": "Object",
+        "model_output": "A. Boeing and Airbus\n\nThe aircraft in the image are identified as an Airbus A320neo and a Boeing 737-500. The Airbus A320neo is manufactured by Airbus, and the Boeing 737-500 is manufactured by Boeing."
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image_air/257_Boeing_737.jpg",
+        "Question": "What are the aircraft doing in the image?\nA. Boarding passengers\nB. Parked on the tarmac\nC. Being de-iced\nD. Taking off",
+        "Answer": "B",
+        "Level": "Easy",
+        "Category": "Action",
+        "model_output": "B. Parked on the tarmac\n\nThe aircraft are stationary on the tarmac, as indicated by their position near hangars and the absence of visible activity such as boarding stairs or de-icing equipment."
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image_air/257_Boeing_737.jpg",
+        "Question": "What is a key physical difference between the engines of the two jets?\nA. The front jet has no visible engines\nB. The front jet's engines are larger\nC. The rear jet's engines are much larger in diameter\nD. They are identical in size",
+        "Answer": "C",
+        "Level": "Easy",
+        "Category": "Attribute",
+        "model_output": "C. The rear jet's engines are much larger in diameter\n\nThe rear jet, which is the Lufthansa Technical Training aircraft, has engines that appear to be significantly larger in diameter compared to the front jet. This is a notable physical difference between the two aircraft."
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image_air/258_Airbus_A320_family.png",
+        "Question": "This narrow-body jet is produced by which manufacturer?\nA. Airbus\nB. Boeing\nC. Embraer\nD. McDonnell Douglas",
+        "Answer": "A",
+        "Level": "Easy",
+        "Category": "Object",
+        "model_output": "A. Airbus\n\nThe aircraft in the image is an Airbus A320, identifiable by its distinctive design features such as the T-tail, rear-mounted engines, and the shape of the nose and cockpit windows. These characteristics are unique to the Airbus A320 family."
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image_air/258_Airbus_A320_family.png",
+        "Question": "What is the primary mission of this specific aircraft?\nA. Carrying passengers\nB. Transporting cargo\nC. Aerial firefighting\nD. Executive transport",
+        "Answer": "B",
+        "Level": "Easy",
+        "Category": "Object",
+        "model_output": "B\n\nThe aircraft in the image has \"PRADHAAN AIR EXPRESS\" written on its side, which suggests that it is used for transporting cargo rather than passengers, aerial firefighting, or executive transport. The design and markings are typical of freighters used by air express companies to deliver goods quickly across long distances."
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image_air/258_Airbus_A320_family.png",
+        "Question": "What action is the aircraft performing in the rain?\nA. Landing\nB. Taxiing\nC. Taking off\nD. Holding short of the runway",
+        "Answer": "C",
+        "Level": "Easy",
+        "Category": "Action",
+        "model_output": "A. Landing\n\nThe aircraft appears to be on the ground with its landing gear deployed, which is typical for an aircraft that has just landed. The presence of water on the runway also suggests recent landing activity."
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image_air/258_Airbus_A320_family.png",
+        "Question": "How many engines power this aircraft?\nA. 1\nB. 2\nC. 3\nD. 4",
+        "Answer": "B",
+        "Level": "Easy",
+        "Category": "Count",
+        "model_output": "B. 2\n\nThe aircraft in the image is an Airbus A320, which is a twin-engine jet airliner. Therefore, it is powered by two engines."
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image_air/259_Comac_C919.png",
+        "Question": "This airliner is developed and manufactured in which country?\nA. United States\nB. France\nC. Russia\nD. China",
+        "Answer": "D",
+        "Level": "Easy",
+        "Category": "Object",
+        "model_output": "D\n\nThe aircraft in the image is the Comac C919, which is developed and manufactured by the Commercial Aircraft Corporation of China (COMAC)."
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image_air/259_Comac_C919.png",
+        "Question": "What is the primary role of this aircraft?\nA. Passenger transport\nB. Cargo transport\nC. Military operations\nD. Private business travel",
+        "Answer": "A",
+        "Level": "Easy",
+        "Category": "Object",
+        "model_output": "A\n\nThe aircraft in the image is a commercial passenger jet, as indicated by the presence of a boarding staircase and the design typical of passenger aircraft. The livery also suggests it is used for commercial purposes, likely transporting passengers."
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image_air/259_Comac_C919.png",
+        "Question": "What is the aircraft's current status?\nA. Taking off\nB. Landing\nC. Parked on the ramp\nD. Cruising in flight",
+        "Answer": "C",
+        "Level": "Easy",
+        "Category": "Action",
+        "model_output": "C\n\nThe aircraft is parked on the ramp as indicated by the presence of ground crew and equipment around it, and the absence of any signs of movement such as smoke from the engines or the aircraft being in the air."
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image_air/259_Comac_C919.png",
+        "Question": "How many engines does this aircraft have?\nA. 1\nB. 2\nC. 3\nD. 4",
+        "Answer": "B",
+        "Level": "Easy",
+        "Category": "Count",
+        "model_output": "B. 2\n\nThe aircraft in the picture is a commercial jet with two engines mounted under its wings, which is typical for most modern passenger aircraft."
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image_air/260_Tupolev_Tu-154.jpg",
+        "Question": "This aircraft was designed and built in which country?\nA. United States\nB. France\nC. Soviet Union\nD. United Kingdom",
+        "Answer": "C",
+        "Level": "Easy",
+        "Category": "Object",
+        "model_output": "C\n\nThe aircraft in the image is a Tupolev Tu-154, which was designed and built in the Soviet Union."
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image_air/260_Tupolev_Tu-154.jpg",
+        "Question": "What is the primary function of this type of aircraft?\nA. Transporting cargo\nB. Carrying passengers\nC. Military bombing\nD. Aerial refueling",
+        "Answer": "B",
+        "Level": "Easy",
+        "Category": "Object",
+        "model_output": "B\n\nThe aircraft in the image is a Tupolev Tu-154M, which is a medium-range, twinjet airliner designed for passenger transport. The presence of windows along the fuselage and the overall design are characteristic of passenger aircraft."
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image_air/260_Tupolev_Tu-154.jpg",
+        "Question": "What phase of flight is the aircraft performing?\nA. Taxiing to the gate\nB. Cruising at altitude\nC. Landing\nD. Taking off",
+        "Answer": "D",
+        "Level": "Easy",
+        "Category": "Action",
+        "model_output": "D\n\nThe aircraft is in the process of taking off as indicated by the extended landing gear and the position of the flaps, which are typically deployed during takeoff to increase lift. Additionally, the aircraft's nose is slightly raised, which is characteristic of an aircraft accelerating on the runway before liftoff."
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image_air/260_Tupolev_Tu-154.jpg",
+        "Question": "How many total engines are visible on this aircraft?\nA. 1\nB. 2\nC. 3\nD. 4",
+        "Answer": "C",
+        "Level": "Easy",
+        "Category": "Count",
+        "model_output": "B. 2\n\nThe image shows two engines mounted under the wings of the aircraft."
+    }
+]

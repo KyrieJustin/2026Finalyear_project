@@ -1,0 +1,7 @@
+Question: What is the primary color of the bird's belly?
+A. Black
+B. White
+C. Gray
+D. Brown
+Ground Truth: A
+Model Output: D. Brown

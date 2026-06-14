@@ -1,0 +1,7 @@
+Question: Which family do these two birds belong to?
+A. Charadriidae
+B. Scolopacidae
+C. Laridae
+D. Anatidae
+Ground Truth: A
+Model Output: B. Scolopacidae

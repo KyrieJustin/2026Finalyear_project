@@ -1,0 +1,7 @@
+Question: What is the species of the birds in the picture?
+A. Haematopus palliatus
+B. Haematopus ostralegus
+C. Haematopus leucopodus
+D. Haematopus bachmani
+Ground Truth: A
+Model Output: B. Haematopus ostralegus

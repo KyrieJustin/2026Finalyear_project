@@ -1,0 +1,7 @@
+Question: What is the species of the birds in the picture?
+A. Greater white-fronted goose
+B. Laysan albatross
+C. Laysan albatross and Greater white-fronted goose
+D. Black-footed albatross and Greater white-fronted goose
+Ground Truth: B
+Model Output: C. Laysan albatross and Greater white-fronted goose

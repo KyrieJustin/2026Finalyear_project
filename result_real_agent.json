@@ -1,0 +1,962 @@
+[
+    {
+        "image_path": "/home/zhouzilu/benchmark/image/051_Black-bellied_whistling_duck.jpg",
+        "Question": "What is the genus of this bird?\nA. Anas\nB. Dendrocygna\nC. Cygnus\nD. Fulica",
+        "Answer": "B",
+        "Level": "Easy",
+        "Category": "Object",
+        "model_output": "B. Dendrocygna"
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image/051_Black-bellied_whistling_duck.jpg",
+        "Question": "How many birds are visible in the image?\nA. One\nB. Two\nC. Three\nD. Four",
+        "Answer": "A",
+        "Level": "Easy",
+        "Category": "Count",
+        "model_output": "A. One"
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image/051_Black-bellied_whistling_duck.jpg",
+        "Question": "What is the species of the bird in the picture?\nA. Autumnalis\nB. Bicolor\nC. Viduata\nD. Discolor",
+        "Answer": "A",
+        "Level": "Easy",
+        "Category": "Object",
+        "model_output": "The image shows a bird perched on a tree stump with a rainbow in the background. However, the question asks for the species of the bird, not the rainbow. The options provided are:\n\nA. Autumnalis\nB. Bicolor\nC. Viduata\nD. Discolor\n\nSince the image does not provide enough detail to identify the bird's species, we cannot determine the correct answer based solely on the image. The external knowledge about the rainbow does not help in identifying the bird's species either.\n\nTherefore, the correct option cannot be determined from the given information."
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image/051_Black-bellied_whistling_duck.jpg",
+        "Question": "What is the primary color of the bird's belly?\nA. Black\nB. White\nC. Gray\nD. Brown",
+        "Answer": "A",
+        "Level": "Easy",
+        "Category": "Attribute",
+        "model_output": "D. Brown"
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image/052_Black-bellied_plover.jpg",
+        "Question": "Which family do these two birds belong to?\nA. Charadriidae\nB. Scolopacidae\nC. Laridae\nD. Anatidae",
+        "Answer": "A",
+        "Level": "Easy",
+        "Category": "Object",
+        "model_output": "B. Scolopacidae"
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image/052_Black-bellied_plover.jpg",
+        "Question": "Are these two birds the same species?\nA. Yes\nB. No\nC. Not sure",
+        "Answer": "B",
+        "Level": "Medium",
+        "Category": "Object",
+        "model_output": "A. Yes"
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image/052_Black-bellied_plover.jpg",
+        "Question": "How many birds are visible in the image?\nA. One\nB. Two\nC. Three\nD. Four",
+        "Answer": "B",
+        "Level": "Easy",
+        "Category": "Count",
+        "model_output": "B. Two"
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image/052_Black-bellied_plover.jpg",
+        "Question": "How many birds show black - and - white plumage patterns in the image?\nA. One\nB. Two\nC. Three\nD. Four",
+        "Answer": "B",
+        "Level": "Medium",
+        "Category": "Count",
+        "model_output": "B. Two"
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image/053_Semipalmated_plover.jpg",
+        "Question": "To which family do these birds belong?\nA. Charadriidae\nB. Scolopacidae\nC. Laridae\nD. Anatidae",
+        "Answer": "A",
+        "Level": "Easy",
+        "Category": "Object",
+        "model_output": "B. Scolopacidae"
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image/053_Semipalmated_plover.jpg",
+        "Question": "How many birds have orange legs in the image?\nA. One\nB. Two\nC. Three\nD. Four",
+        "Answer": "B",
+        "Level": "Hard",
+        "Category": "Count",
+        "model_output": "B. Two"
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image/053_Semipalmated_plover.jpg",
+        "Question": "Are the birds in this image members of the Charadrius genus?\nA. Yes\nB. No\nC. Not sure",
+        "Answer": "A",
+        "Level": "Easy",
+        "Category": "Object",
+        "model_output": "A. Yes"
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image/053_Semipalmated_plover.jpg",
+        "Question": "What is the scientific name of the birds in the picture?\nA. Charadrius vociferus\nB. Charadrius semipalmatus\nC. Charadrius melodus\nD. Charadrius hiaticula",
+        "Answer": "B",
+        "Level": "Easy",
+        "Category": "Object",
+        "model_output": "B. Charadrius semipalmatus"
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image/054_Greater_white-fronted_goose.jpg",
+        "Question": "To which family does the bird in the middle of the image belong?\nA. Anatidae\nB. Accipitridae\nC. Scolopacidae\nD. Laridae",
+        "Answer": "A",
+        "Level": "Easy",
+        "Category": "Object",
+        "model_output": "A. Anatidae"
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image/054_Greater_white-fronted_goose.jpg",
+        "Question": "How many birds with brown-feathered head are there in the image?\nA. One\nB. Two\nC. Three\nD. Four",
+        "Answer": "A",
+        "Level": "Medium",
+        "Category": "Count",
+        "model_output": "A. One"
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image/054_Greater_white-fronted_goose.jpg",
+        "Question": "Are these two birds from the same class?\nA. Yes\nB. No\nC. Not sure",
+        "Answer": "A",
+        "Level": "Medium",
+        "Category": "Object",
+        "model_output": "A. Yes"
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image/054_Greater_white-fronted_goose.jpg",
+        "Question": "What is the species of the birds in the picture?\nA. Greater white-fronted goose\nB. Laysan albatross\nC. Laysan albatross and Greater white-fronted goose\nD. Black-footed albatross and Greater white-fronted goose",
+        "Answer": "B",
+        "Level": "Medium",
+        "Category": "Object",
+        "model_output": "C. Laysan albatross and Greater white-fronted goose"
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image/055_American_white_pelican.jpg",
+        "Question": "What is the species of the birds in the picture?\nA. American white pelican\nB. Brown pelican\nC. American white pelican and Osprey\nD. American white pelican and Laysan albatross",
+        "Answer": "C",
+        "Level": "Medium",
+        "Category": "Object",
+        "model_output": "C. American white pelican and Osprey"
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image/055_American_white_pelican.jpg",
+        "Question": "How many pelicans are visible in the image?\nA. One\nB. Two\nC. Three\nD. Four",
+        "Answer": "B",
+        "Level": "Easy",
+        "Category": "Count",
+        "model_output": "B. Two"
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image/055_American_white_pelican.jpg",
+        "Question": "Are the birds in the picture from the same order?\nA. Yes\nB. No\nC. Not sure",
+        "Answer": "B",
+        "Level": "Medium",
+        "Category": "Object",
+        "model_output": "B. No"
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image/055_American_white_pelican.jpg",
+        "Question": "What is the primary color of the white bird's bill?\nA. Brown\nB. Grey\nC. White\nD. Yellow",
+        "Answer": "D",
+        "Level": "Easy",
+        "Category": "Attribute",
+        "model_output": "D. Yellow"
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image/056_Killdeer.jpg",
+        "Question": "What is the genus of the birds in the image?\nA. Charadrius\nB. Scolopax\nC. Tringa\nD. Calidris",
+        "Answer": "A",
+        "Level": "Easy",
+        "Category": "Object",
+        "model_output": "A. Charadrius"
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image/056_Killdeer.jpg",
+        "Question": "Is the bird in the image a member of the Charadriidae family?\nA. Yes\nB. No\nC. Not sure",
+        "Answer": "A",
+        "Level": "Easy",
+        "Category": "Object",
+        "model_output": "A. Yes"
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image/056_Killdeer.jpg",
+        "Question": "What color are the upperparts of the killdeer?\nA. Brown with rufous fringes\nB. Gray with black spots\nC. White with brown stripes\nD. Black with white patches",
+        "Answer": "A",
+        "Level": "Easy",
+        "Category": "Attribute",
+        "model_output": "A. Brown with rufous fringes"
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image/056_Killdeer.jpg",
+        "Question": "Are the birds displaying any fighting behavior?\nA. Yes\nB. No\nC. Not sure",
+        "Answer": "B",
+        "Level": "Medium",
+        "Category": "Action",
+        "model_output": "B. No"
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image/057_Red-headed_woodpecker.jpeg",
+        "Question": "What is the species of the bird in the picture?\nA. Red-headed woodpecker\nB. Red-bellied woodpecker\nC. Acorn woodpecker\nD. Downy woodpecker",
+        "Answer": "A",
+        "Level": "Easy",
+        "Category": "Object",
+        "model_output": "A. Red-headed woodpecker"
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image/057_Red-headed_woodpecker.jpeg",
+        "Question": "To which genus does this bird belong?\nA. Melanerpes\nB. Picus\nC. Dryocopus\nD. Colaptes",
+        "Answer": "A",
+        "Level": "Easy",
+        "Category": "Object",
+        "model_output": "A. Melanerpes"
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image/057_Red-headed_woodpecker.jpeg",
+        "Question": "What is the primary color of the bird's head in the image?\nA. Red\nB. Black\nC. White\nD. Grey",
+        "Answer": "A",
+        "Level": "Easy",
+        "Category": "Attribute",
+        "model_output": "A. Red"
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image/057_Red-headed_woodpecker.jpeg",
+        "Question": "What action is the bird performing in the image?\nA. Hunting\nB. Perching\nC. Feeding\nD. Nesting",
+        "Answer": "A",
+        "Level": "Medium",
+        "Category": "Action",
+        "model_output": "A. Hunting"
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image/058_American_oystercatcher.jpg",
+        "Question": "To which family does these birds belong?\nA. Haematopodidae\nB. Scolopacidae\nC. Laridae\nD. Charadriidae",
+        "Answer": "A",
+        "Level": "Easy",
+        "Category": "Object",
+        "model_output": "D. Charadriidae"
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image/058_American_oystercatcher.jpg",
+        "Question": "What is the species of the birds in the picture?\nA. Haematopus palliatus\nB. Haematopus ostralegus\nC. Haematopus leucopodus\nD. Haematopus bachmani",
+        "Answer": "A",
+        "Level": "Easy",
+        "Category": "Object",
+        "model_output": "B. Haematopus ostralegus"
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image/058_American_oystercatcher.jpg",
+        "Question": "Are these birds the same species?\nA. Yes\nB. No\nC. Not sure",
+        "Answer": "A",
+        "Level": "Medium",
+        "Category": "Object",
+        "model_output": "A. Yes"
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image/058_American_oystercatcher.jpg",
+        "Question": "What color is the beak of these birds?\nA. Red\nB. Yellow\nC. Blue\nD. Green",
+        "Answer": "A",
+        "Level": "Easy",
+        "Category": "Attribute",
+        "model_output": "A. Red"
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image/059_Ross's_goose.jpg",
+        "Question": "To which family does these two birds belong?\nA. Anatidae\nB. Phasianidae\nC. Scolopacidae\nD. Ardeidae",
+        "Answer": "A",
+        "Level": "Easy",
+        "Category": "Object",
+        "model_output": "A. Anatidae"
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image/059_Ross's_goose.jpg",
+        "Question": "Are these two birds from the same genus?\nA. Yes\nB. No\nC. Not sure",
+        "Answer": "A",
+        "Level": "Medium",
+        "Category": "Object",
+        "model_output": "A. Yes"
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image/059_Ross's_goose.jpg",
+        "Question": "What is the species of the birds in the picture?\nA. Ross's goose\nB. Snow goose\nC. Ross's goose and Snow goose\nD. Ross's goose and Anser anser",
+        "Answer": "C",
+        "Level": "Medium",
+        "Category": "Object",
+        "model_output": "B. Snow goose"
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image/059_Ross's_goose.jpg",
+        "Question": "What is the primary color of the birds' plumage?\nA. Brown\nB. Gray\nC. White\nD. Blue",
+        "Answer": "C",
+        "Level": "Easy",
+        "Category": "Attribute",
+        "model_output": "C. White"
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image/060_Black_oystercatcher.jpg",
+        "Question": "What is the species of the bird with the red bill in the image?\nA. Black oystercatcher\nB. American oystercatcher\nC. Eurasian oystercatcher\nD. Pied oystercatcher",
+        "Answer": "A",
+        "Level": "Easy",
+        "Category": "Object",
+        "model_output": "A. Black oystercatcher"
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image/060_Black_oystercatcher.jpg",
+        "Question": "Are these birds from the same genus??\nA. Yes\nB. No\nC. Not sure",
+        "Answer": "B",
+        "Level": "Medium",
+        "Category": "Object",
+        "model_output": "B. No"
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image/060_Black_oystercatcher.jpg",
+        "Question": "What color is the bill of the black birds?\nA. Yellow\nB. Red\nC. Blue\nD. Green",
+        "Answer": "B",
+        "Level": "Easy",
+        "Category": "Attribute",
+        "model_output": "B. Red"
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image/060_Black_oystercatcher.jpg",
+        "Question": "Are the birds in the image standing on a rocky shoreline?\nA. Yes\nB. No\nC. Not sure",
+        "Answer": "A",
+        "Level": "Medium",
+        "Category": "Action",
+        "model_output": "A. Yes"
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image_car/151_2025_Ford_F-250.jpg",
+        "Question": "What is the brand of this vehicle?\nA. Ram\nB. Chevrolet\nC. Ford\nD. Toyota",
+        "Answer": "C",
+        "Level": "Easy",
+        "Category": "Object",
+        "model_output": "C. Ford"
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image_car/151_2025_Ford_F-250.jpg",
+        "Question": "What is the body style of this vehicle?\nA. SUV\nB. Pickup Truck\nC. Crossover\nD. Van",
+        "Answer": "B",
+        "Level": "Easy",
+        "Category": "Object",
+        "model_output": "B. Pickup Truck"
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image_car/151_2025_Ford_F-250.jpg",
+        "Question": "What primary action is the vehicle performing?\nA. Driving through mud\nB. Being washed at a car wash\nC. Parked on a clean, paved road\nD. Driving on a professional racetrack",
+        "Answer": "A",
+        "Level": "Easy",
+        "Category": "Action",
+        "model_output": "A. Driving through mud"
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image_car/151_2025_Ford_F-250.jpg",
+        "Question": "What is the most notable condition of the vehicle's exterior?\nA. It has visible rust spots.\nB. It is clean and polished.\nC. It is covered in snow and ice.\nD. It is covered in mud.",
+        "Answer": "D",
+        "Level": "Medium",
+        "Category": "Attribute",
+        "model_output": "D. It is covered in mud."
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image_car/152_Toyota_camry.png",
+        "Question": "What is the brand of this vehicle?\nA. Honda\nB. Nissan\nC. Toyota\nD. Hyundai",
+        "Answer": "C",
+        "Level": "Easy",
+        "Category": "Object",
+        "model_output": "C. Toyota"
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image_car/152_Toyota_camry.png",
+        "Question": "What is its model name?\nA. Corolla\nB. Camry\nC. Accord\nD. Altima",
+        "Answer": "B",
+        "Level": "Medium",
+        "Category": "Object",
+        "model_output": "B. Camry"
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image_car/152_Toyota_camry.png",
+        "Question": "What is the body style of this vehicle?\nA. SUV\nB. Coupe\nC. Hatchback\nD. Sedan",
+        "Answer": "D",
+        "Level": "Easy",
+        "Category": "Object",
+        "model_output": "D. Sedan"
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image_car/152_Toyota_camry.png",
+        "Question": "What is the primary color of this car?\nA. Red\nB. Silver\nC. Black\nD. White",
+        "Answer": "A",
+        "Level": "Easy",
+        "Category": "Attribute",
+        "model_output": "A. Red"
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image_car/153_Volkswagen_beetle.jpg",
+        "Question": "What is the brand of this car?\nA. Volkswagen\nB. Fiat\nC. Mini\nD. Porsche",
+        "Answer": "A",
+        "Level": "Easy",
+        "Category": "Object",
+        "model_output": "A. Volkswagen"
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image_car/153_Volkswagen_beetle.jpg",
+        "Question": "What is the body style of this vehicle?\nA. SUV\nB. Coupe\nC. Sedan\nD. Convertible",
+        "Answer": "B",
+        "Level": "Easy",
+        "Category": "Object",
+        "model_output": "B. Coupe"
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image_car/153_Volkswagen_beetle.jpg",
+        "Question": "What is the primary color of this car?\nA. Blue\nB. Black\nC. Green\nD. Silver",
+        "Answer": "C",
+        "Level": "Easy",
+        "Category": "Attribute",
+        "model_output": "C. Green"
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image_car/153_Volkswagen_beetle.jpg",
+        "Question": "How many side doors does this car have?\nA. One\nB. Two\nC. Three\nD. Four",
+        "Answer": "B",
+        "Level": "Easy",
+        "Category": "Count",
+        "model_output": "B. Two"
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image_car/154_Citroen_DS.jpg",
+        "Question": "What is the brand of this classic car?\nA. Peugeot\nB. Renault\nC. Citroën\nD. Fiat",
+        "Answer": "C",
+        "Level": "Easy",
+        "Category": "Object",
+        "model_output": "C. Citroën"
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image_car/154_Citroen_DS.jpg",
+        "Question": "How many classic cars are parked on the grass?\nA. One\nB. Two\nC. Three\nD. Four",
+        "Answer": "A",
+        "Level": "Easy",
+        "Category": "Count",
+        "model_output": "A. One"
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image_car/154_Citroen_DS.jpg",
+        "Question": "What is the body style of this vehicle?\nA. SUV\nB. Sports Car\nC. Sedan\nD. Pickup Truck",
+        "Answer": "C",
+        "Level": "Easy",
+        "Category": "Object",
+        "model_output": "C. Sedan"
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image_car/154_Citroen_DS.jpg",
+        "Question": "What is the primary color of this car's body?\nA. Silver\nB. Blue\nC. White or off-white\nD. Yellow",
+        "Answer": "C",
+        "Level": "Easy",
+        "Category": "Attribute",
+        "model_output": "C. White or off-white"
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image_car/155_Mini_cooper.jpg",
+        "Question": "What is the brand of the left car in the foreground?\nA. Fiat\nB. Mini\nC. Volkswagen\nD. Smart",
+        "Answer": "B",
+        "Level": "Easy",
+        "Category": "Object",
+        "model_output": "B. Mini"
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image_car/155_Mini_cooper.jpg",
+        "Question": "How many cars are shown in the image?\nA. One\nB. Two\nC. Three\nD. Four",
+        "Answer": "B",
+        "Level": "Easy",
+        "Category": "Count",
+        "model_output": "B. Two"
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image_car/155_Mini_cooper.jpg",
+        "Question": "What is the body style of both cars in the image?\nA. SUV\nB. Sedan\nC. Hatchback\nD. Convertible",
+        "Answer": "C",
+        "Level": "Easy",
+        "Category": "Object",
+        "model_output": "C. Hatchback"
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image_car/155_Mini_cooper.jpg",
+        "Question": "What decorative element is on the hood of the left car?\nA. A single, wide racing stripe\nB. A checkered flag pattern\nC. Two parallel white stripes\nD. A flame decal",
+        "Answer": "C",
+        "Level": "Easy",
+        "Category": "Attribute",
+        "model_output": "C. Two parallel white stripes"
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image_car/156_Lamborghini_countach.jpg",
+        "Question": "What is the brand of the left car?\nA. Ferrari\nB. Porsche\nC. Lamborghini\nD. McLaren",
+        "Answer": "C",
+        "Level": "Easy",
+        "Category": "Object",
+        "model_output": "C. Lamborghini"
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image_car/156_Lamborghini_countach.jpg",
+        "Question": "How many sports cars are racing on the track?\nA. One\nB. Two\nC. Three\nD. Four",
+        "Answer": "B",
+        "Level": "Easy",
+        "Category": "Count",
+        "model_output": "B. Two"
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image_car/156_Lamborghini_countach.jpg",
+        "Question": "How many red cars are there?\nA. One\nB. Two\nC. Three\nD. Four",
+        "Answer": "A",
+        "Level": "Easy",
+        "Category": "Count",
+        "model_output": "A. One"
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image_car/156_Lamborghini_countach.jpg",
+        "Question": "What type of headlights do both cars feature?\nA. Standard fixed headlights\nB. Pop-up headlights\nC. LED matrix headlights\nD. Hidden headlights behind the grille",
+        "Answer": "B",
+        "Level": "Easy",
+        "Category": "Attribute",
+        "model_output": "B. Pop-up headlights"
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image_car/157_Mercedes-benz_300_SL.png",
+        "Question": "What is the brand of the car in the foreground with its doors open?\nA. Porsche\nB. BMW\nC. Mercedes-Benz\nD. Audi",
+        "Answer": "C",
+        "Level": "Easy",
+        "Category": "Object",
+        "model_output": "C. Mercedes-Benz"
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image_car/157_Mercedes-benz_300_SL.png",
+        "Question": "What is the body style of all of these vehicles?\nA. SUV\nB. Sedan\nC. Coupe / Grand Tourer\nD. Convertible",
+        "Answer": "C",
+        "Level": "Easy",
+        "Category": "Object",
+        "model_output": "C. Coupe / Grand Tourer"
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image_car/157_Mercedes-benz_300_SL.png",
+        "Question": "What unique type of doors does the car in the foreground have?\nA. Scissor doors\nB. Suicide doors\nC. Butterfly doors\nD. Gull-wing doors",
+        "Answer": "D",
+        "Level": "Easy",
+        "Category": "Attribute",
+        "model_output": "D. Gull-wing doors"
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image_car/157_Mercedes-benz_300_SL.png",
+        "Question": "In what type of location are the cars positioned?\nA. A public city street\nB. A professional racetrack\nC. A private driveway\nD. An off-road trail",
+        "Answer": "B",
+        "Level": "Easy",
+        "Category": "Action",
+        "model_output": "B. A professional racetrack"
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image_car/158_DeLorean_DMC-12.png",
+        "Question": "What is the brand of the smaller car?\nA. Porsche\nB. DMC (DeLorean Motor Company)\nC. Ferrari\nD. Lotus",
+        "Answer": "B",
+        "Level": "Easy",
+        "Category": "Object",
+        "model_output": "B. DMC (DeLorean Motor Company)"
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image_car/158_DeLorean_DMC-12.png",
+        "Question": "What is the primary exterior material and finish of both vehicles?\nA. Painted carbon fiber\nB. Polished aluminum\nC. Unpainted stainless steel\nD. Matte black plastic",
+        "Answer": "C",
+        "Level": "Easy",
+        "Category": "Attribute",
+        "model_output": "C. Unpainted stainless steel"
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image_car/158_DeLorean_DMC-12.png",
+        "Question": "What is the model name of the large truck?\nA. F-150 Lightning\nB. Rivian R1T\nC. Hummer EV\nD. Cybertruck",
+        "Answer": "D",
+        "Level": "Medium",
+        "Category": "Object",
+        "model_output": "D. Cybertruck"
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image_car/158_DeLorean_DMC-12.png",
+        "Question": "What type of doors does the smaller sports car have?\nA. Scissor doors\nB. Suicide doors\nC. Gull-wing doors\nD. Standard hinged doors",
+        "Answer": "C",
+        "Level": "Easy",
+        "Category": "Action",
+        "model_output": "C. Gull-wing doors"
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image_car/159_BMW_i3.png",
+        "Question": "What is the brand of the car in the foreground?\nA. Audi\nB. BMW\nC. Tesla\nD. Volkswagen",
+        "Answer": "B",
+        "Level": "Easy",
+        "Category": "Object",
+        "model_output": "B. BMW"
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image_car/159_BMW_i3.png",
+        "Question": "What is the body style of the car in the foreground?\nA. Sedan\nB. Coupe\nC. SUV\nD. High-roof hatchback",
+        "Answer": "D",
+        "Level": "Easy",
+        "Category": "Object",
+        "model_output": "D. High-roof hatchback"
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image_car/159_BMW_i3.png",
+        "Question": "How many electric vehicles are driving on the road?\nA. One\nB. Two\nC. Three\nD. Four",
+        "Answer": "B",
+        "Level": "Easy",
+        "Category": "Count",
+        "model_output": "B. Two"
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image_car/159_BMW_i3.png",
+        "Question": "What is the two-tone color scheme of the car in the foreground?\nA. Blue and silver\nB. Red and black\nC. Green and white\nD. Yellow and black",
+        "Answer": "B",
+        "Level": "Easy",
+        "Category": "Attribute",
+        "model_output": "B. Red and black"
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image_car/160_Hummer_H1.jpg",
+        "Question": "What is the brand of the black vehicle in the foreground?\nA. Jeep\nB. Land Rover\nC. Hummer\nD. Ford",
+        "Answer": "C",
+        "Level": "Easy",
+        "Category": "Object",
+        "model_output": "C. Hummer"
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image_car/160_Hummer_H1.jpg",
+        "Question": "How many vehicles are parked in front of the building?\nA. One\nB. Two\nC. Three\nD. Four",
+        "Answer": "B",
+        "Level": "Easy",
+        "Category": "Count",
+        "model_output": "B. Two"
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image_car/160_Hummer_H1.jpg",
+        "Question": "What is the body style of both vehicles?\nA. Minivan\nB. Sports Car\nC. Off-road vehicle\nD. Sedan",
+        "Answer": "C",
+        "Level": "Easy",
+        "Category": "Object",
+        "model_output": "C. Off-road vehicle"
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image_car/160_Hummer_H1.jpg",
+        "Question": "What feature is mounted on the roof of the black vehicle?\nA. A large sunroof\nB. A roof rack for cargo\nC. A convertible soft top\nD. Solar panels",
+        "Answer": "B",
+        "Level": "Easy",
+        "Category": "Attribute",
+        "model_output": "B. A roof rack for cargo"
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image_air/251_Boeing_747.jpg",
+        "Question": "What is the primary role of the lower aircraft?\nA. Passenger transport\nB. Standard cargo flights\nC. Specialized transport\nD. Military bombing",
+        "Answer": "C",
+        "Level": "Easy",
+        "Category": "Object",
+        "model_output": "C. Specialized transport"
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image_air/251_Boeing_747.jpg",
+        "Question": "What famous vehicle is mounted on the larger aircraft?\nA. A spy plane\nB. A supersonic jet\nC. A space shuttle\nD. A large rocket",
+        "Answer": "C",
+        "Level": "Easy",
+        "Category": "Object",
+        "model_output": "C. A space shuttle"
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image_air/251_Boeing_747.jpg",
+        "Question": "How many engines are visible on the lower aircraft?\nA. 2\nB. 4\nC. 6\nD. 8",
+        "Answer": "B",
+        "Level": "Easy",
+        "Category": "Count",
+        "model_output": "B. 4"
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image_air/251_Boeing_747.jpg",
+        "Question": "What is this aircraft combination doing?\nA. Cruising at high altitude\nB. Taking off\nC. Parked on the ground\nD. Being refueled in the air",
+        "Answer": "B",
+        "Level": "Easy",
+        "Category": "Action",
+        "model_output": "B. Taking off"
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image_air/252_Airbus_A380.jpg",
+        "Question": "All the aircraft in this formation belong to which major manufacturer?\nA. Boeing\nB. Airbus\nC. Embraer\nD. Lockheed Martin",
+        "Answer": "B",
+        "Level": "Easy",
+        "Category": "Object",
+        "model_output": "B. Airbus"
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image_air/252_Airbus_A380.jpg",
+        "Question": "How many total aircraft are visible in the formation?\nA. 2\nB. 3\nC. 4\nD. 5",
+        "Answer": "C",
+        "Level": "Easy",
+        "Category": "Count",
+        "model_output": "C. 4"
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image_air/252_Airbus_A380.jpg",
+        "Question": "What is this group of aircraft doing?\nA. Racing each other\nB. Preparing to land in sequence\nC. Refueling in mid-air\nD. Flying in formation",
+        "Answer": "D",
+        "Level": "Easy",
+        "Category": "Action",
+        "model_output": "D. Flying in formation"
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image_air/252_Airbus_A380.jpg",
+        "Question": "Which aircraft in the formation is equipped with four engines?\nA. The largest one in the front\nB. The one in the middle\nC. The smallest one in the back\nD. None of them",
+        "Answer": "A",
+        "Level": "Easy",
+        "Category": "Attribute",
+        "model_output": "A. The largest one in the front"
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image_air/253_Boeing_777.png",
+        "Question": "This aircraft is produced by which manufacturer?\nA. Airbus\nB. Boeing\nC. Embraer\nD. Bombardier",
+        "Answer": "B",
+        "Level": "Easy",
+        "Category": "Object",
+        "model_output": "B. Boeing"
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image_air/253_Boeing_777.png",
+        "Question": "Which airline operates this aircraft?\nA. Singapore Airlines\nB. Emirates\nC. Lufthansa\nD. Cathay Pacific",
+        "Answer": "D",
+        "Level": "Easy",
+        "Category": "Object",
+        "model_output": "D. Cathay Pacific"
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image_air/253_Boeing_777.png",
+        "Question": "What phase of flight is the aircraft currently in?\nA. Taking off\nB. Cruising at altitude\nC. Landing\nD. Taxiing to the gate",
+        "Answer": "A",
+        "Level": "Easy",
+        "Category": "Action",
+        "model_output": "A. Taking off"
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image_air/253_Boeing_777.png",
+        "Question": "How many engines does this aircraft have in total?\nA. 2\nB. 4\nC. 6\nD. 8",
+        "Answer": "A",
+        "Level": "Easy",
+        "Category": "Count",
+        "model_output": "A. 2"
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image_air/254_Boeing_787_Dreamliner.jpg",
+        "Question": "What is the manufacturer of these airliners?\nA. Airbus\nB. Lockheed Martin\nC. Boeing\nD. Embraer",
+        "Answer": "C",
+        "Level": "Easy",
+        "Category": "Object",
+        "model_output": "C. Boeing"
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image_air/254_Boeing_787_Dreamliner.jpg",
+        "Question": "What is the nickname of the aircraft?\nA. Stratocruiser\nB. Globemaster\nC. Starliner\nD. Dreamliner",
+        "Answer": "D",
+        "Level": "Easy",
+        "Category": "Object",
+        "model_output": "D. Dreamliner"
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image_air/254_Boeing_787_Dreamliner.jpg",
+        "Question": "How many aircraft are flying together in this picture?\nA. 2\nB. 3\nC. 4\nD. 5",
+        "Answer": "B",
+        "Level": "Easy",
+        "Category": "Count",
+        "model_output": "B. 3"
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image_air/254_Boeing_787_Dreamliner.jpg",
+        "Question": "How many engines does each of these aircraft have?\nA. 2\nB. 4\nC. 6\nD. 1",
+        "Answer": "A",
+        "Level": "Easy",
+        "Category": "Count",
+        "model_output": "A. 2"
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image_air/255_Airbus_A350.jpg",
+        "Question": "This aircraft is a product of which manufacturer?\nA. Boeing\nB. Embraer\nC. Airbus\nD. Bombardier",
+        "Answer": "C",
+        "Level": "Easy",
+        "Category": "Object",
+        "model_output": "C. Airbus"
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image_air/255_Airbus_A350.jpg",
+        "Question": "This type of aircraft is primarily designed for what kind of flights?\nA. Short-haul domestic routes\nB. Long-haul international routes\nC. Regional commuter flights\nD. Cargo and freight transport",
+        "Answer": "B",
+        "Level": "Easy",
+        "Category": "Object",
+        "model_output": "B. Long-haul international routes"
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image_air/255_Airbus_A350.jpg",
+        "Question": "What is the aircraft doing in this image?\nA. Taking off\nB. Landing\nC. Parked at a gate\nD. Cruising in the air",
+        "Answer": "D",
+        "Level": "Easy",
+        "Category": "Action",
+        "model_output": "A. Taking off"
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image_air/255_Airbus_A350.jpg",
+        "Question": "How many engines are on this aircraft?\nA. 2\nB. 3\nC. 4\nD. 6",
+        "Answer": "A",
+        "Level": "Easy",
+        "Category": "Count",
+        "model_output": "A. 2"
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image_air/256_McDonnell_Douglas_DC-10.jpg",
+        "Question": "Which company operates this cargo aircraft?\nA. UPS\nB. FedEx Express\nC. DHL\nD. Amazon Air",
+        "Answer": "B",
+        "Level": "Easy",
+        "Category": "Object",
+        "model_output": "B. FedEx Express"
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image_air/256_McDonnell_Douglas_DC-10.jpg",
+        "Question": "What is the primary purpose of this aircraft?\nA. Passenger transport\nB. Scientific research\nC. Transporting cargo\nD. Military surveillance",
+        "Answer": "C",
+        "Level": "Easy",
+        "Category": "Object",
+        "model_output": "C. Transporting cargo"
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image_air/256_McDonnell_Douglas_DC-10.jpg",
+        "Question": "What action is the aircraft performing?\nA. Landing on a runway\nB. Taking off\nC. Taxiing to a parking stand\nD. Cruising at high altitude",
+        "Answer": "A",
+        "Level": "Easy",
+        "Category": "Action",
+        "model_output": "A. Landing on a runway"
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image_air/256_McDonnell_Douglas_DC-10.jpg",
+        "Question": "How many total engines does this aircraft have?\nA. 2\nB. 4\nC. 3\nD. 5",
+        "Answer": "C",
+        "Level": "Easy",
+        "Category": "Count",
+        "model_output": "B. 4"
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image_air/257_Boeing_737.jpg",
+        "Question": "Which airline operates both of the aircraft shown?\nA. British Airways\nB. Air France\nC. American Airlines\nD. Lufthansa",
+        "Answer": "D",
+        "Level": "Easy",
+        "Category": "Object",
+        "model_output": "D. Lufthansa"
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image_air/257_Boeing_737.jpg",
+        "Question": "The two aircraft are products of which manufacturers?\nA. Boeing and Airbus\nB. Embraer and Bombardier\nC. Lockheed and McDonnell Douglas\nD. Tupolev and Ilyushin",
+        "Answer": "A",
+        "Level": "Easy",
+        "Category": "Object",
+        "model_output": "A. Boeing and Airbus"
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image_air/257_Boeing_737.jpg",
+        "Question": "What are the aircraft doing in the image?\nA. Boarding passengers\nB. Parked on the tarmac\nC. Being de-iced\nD. Taking off",
+        "Answer": "B",
+        "Level": "Easy",
+        "Category": "Action",
+        "model_output": "B. Parked on the tarmac"
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image_air/257_Boeing_737.jpg",
+        "Question": "What is a key physical difference between the engines of the two jets?\nA. The front jet has no visible engines\nB. The front jet's engines are larger\nC. The rear jet's engines are much larger in diameter\nD. They are identical in size",
+        "Answer": "C",
+        "Level": "Easy",
+        "Category": "Attribute",
+        "model_output": "The correct option is B. The front jet's engines are larger."
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image_air/258_Airbus_A320_family.png",
+        "Question": "This narrow-body jet is produced by which manufacturer?\nA. Airbus\nB. Boeing\nC. Embraer\nD. McDonnell Douglas",
+        "Answer": "A",
+        "Level": "Easy",
+        "Category": "Object",
+        "model_output": "A. Airbus"
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image_air/258_Airbus_A320_family.png",
+        "Question": "What is the primary mission of this specific aircraft?\nA. Carrying passengers\nB. Transporting cargo\nC. Aerial firefighting\nD. Executive transport",
+        "Answer": "B",
+        "Level": "Easy",
+        "Category": "Object",
+        "model_output": "B. Transporting cargo"
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image_air/258_Airbus_A320_family.png",
+        "Question": "What action is the aircraft performing in the rain?\nA. Landing\nB. Taxiing\nC. Taking off\nD. Holding short of the runway",
+        "Answer": "C",
+        "Level": "Easy",
+        "Category": "Action",
+        "model_output": "A. Landing"
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image_air/258_Airbus_A320_family.png",
+        "Question": "How many engines power this aircraft?\nA. 1\nB. 2\nC. 3\nD. 4",
+        "Answer": "B",
+        "Level": "Easy",
+        "Category": "Count",
+        "model_output": "B. 2"
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image_air/259_Comac_C919.png",
+        "Question": "This airliner is developed and manufactured in which country?\nA. United States\nB. France\nC. Russia\nD. China",
+        "Answer": "D",
+        "Level": "Easy",
+        "Category": "Object",
+        "model_output": "D. China"
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image_air/259_Comac_C919.png",
+        "Question": "What is the primary role of this aircraft?\nA. Passenger transport\nB. Cargo transport\nC. Military operations\nD. Private business travel",
+        "Answer": "A",
+        "Level": "Easy",
+        "Category": "Object",
+        "model_output": "A. Passenger transport"
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image_air/259_Comac_C919.png",
+        "Question": "What is the aircraft's current status?\nA. Taking off\nB. Landing\nC. Parked on the ramp\nD. Cruising in flight",
+        "Answer": "C",
+        "Level": "Easy",
+        "Category": "Action",
+        "model_output": "C. Parked on the ramp"
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image_air/259_Comac_C919.png",
+        "Question": "How many engines does this aircraft have?\nA. 1\nB. 2\nC. 3\nD. 4",
+        "Answer": "B",
+        "Level": "Easy",
+        "Category": "Count",
+        "model_output": "B. 2"
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image_air/260_Tupolev_Tu-154.jpg",
+        "Question": "This aircraft was designed and built in which country?\nA. United States\nB. France\nC. Soviet Union\nD. United Kingdom",
+        "Answer": "C",
+        "Level": "Easy",
+        "Category": "Object",
+        "model_output": "C. Soviet Union"
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image_air/260_Tupolev_Tu-154.jpg",
+        "Question": "What is the primary function of this type of aircraft?\nA. Transporting cargo\nB. Carrying passengers\nC. Military bombing\nD. Aerial refueling",
+        "Answer": "B",
+        "Level": "Easy",
+        "Category": "Object",
+        "model_output": "B. Carrying passengers"
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image_air/260_Tupolev_Tu-154.jpg",
+        "Question": "What phase of flight is the aircraft performing?\nA. Taxiing to the gate\nB. Cruising at altitude\nC. Landing\nD. Taking off",
+        "Answer": "D",
+        "Level": "Easy",
+        "Category": "Action",
+        "model_output": "C. Landing"
+    },
+    {
+        "image_path": "/home/zhouzilu/benchmark/image_air/260_Tupolev_Tu-154.jpg",
+        "Question": "How many total engines are visible on this aircraft?\nA. 1\nB. 2\nC. 3\nD. 4",
+        "Answer": "C",
+        "Level": "Easy",
+        "Category": "Count",
+        "model_output": "B. 2"
+    }
+]
